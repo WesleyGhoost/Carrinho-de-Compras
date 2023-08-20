@@ -1,0 +1,16 @@
+.suggestions {
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    top: 20;
+    background-color: rgb(237, 237, 237);
+    z-index: 3;
+    list-style: none;
+    overflow: auto;
+}
+
+.suggestions-items {
+    padding: 10px;
+    border: red;
+    cursor: pointer;
+}

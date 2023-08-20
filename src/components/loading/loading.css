@@ -1,0 +1,23 @@
+.container-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 70px;
+}
+
+.loading {
+    font-size: 30px;
+    animation: rotateLoader 1s infinite linear;
+}
+
+@keyframes rotateLoader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
